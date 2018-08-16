@@ -1,0 +1,294 @@
+Memory before build: 1199004
+Initializing Workspace
+Creating Help Project Resources
+Analyzing Assemblies & Merging XML Documentation
+Memory making xml: 2194512
+AssemblyLoader: Loading "C:\My Documents\Projects\SuperDoku\SuperDoku\bin\Debug\SuperDoku.dll".
+XmlDocCommentLoader: Loaded 'C:\My Documents\Projects\SuperDoku\SuperDoku\bin\Debug\SuperDoku.XML' (0.132 sec.)
+XmlDocCommentLoader: Cache 133
+Docs found : C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\en\mscorlib.xml
+XmlDocCommentLoader: Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\en\mscorlib.xml' (1.381 sec.)
+XmlDocCommentLoader: Cache 14328
+XmlDocCommentLoader: Loaded 'C:\Documents and Settings\Mike\Desktop\ndoc\Configuration\Supplemental Docs\en\mscorlib.xml' (0.018 sec.)
+XmlDocCommentLoader: Cache 15350
+AssemblyLoader: Attempting to resolve "System.Drawing, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, Retargetable=Yes".
+AssemblyLoader: => policy redirect to "System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+AssemblyLoader: Loaded "C:/WINDOWS/assembly/GAC_MSIL/System.Drawing/2.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll"
+AssemblyLoader: Attempting to resolve "System.Windows.Forms, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, Retargetable=Yes".
+AssemblyLoader: => policy redirect to "System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+AssemblyLoader: Loaded "C:/WINDOWS/assembly/GAC_MSIL/System.Windows.Forms/2.0.0.0__b77a5c561934e089/System.Windows.Forms.dll"
+AssemblyLoader: Attempting to resolve "System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+AssemblyLoader: Loaded "C:/WINDOWS/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll"
+Writing namespace SuperDoku...
+    AssemblyLoader: Attempting to resolve "Accessibility, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+    AssemblyLoader: Loaded "C:/WINDOWS/assembly/GAC_MSIL/Accessibility/2.0.0.0__b03f5f7f11d50a3a/Accessibility.dll"
+    Docs found : C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\en\System.Windows.Forms.xml
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            XmlDocCommentLoader: Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\en\System.Windows.Forms.xml' (1.189 sec.)
+    XmlDocCommentLoader: Cache 28124
+    XmlDocCommentLoader: Loaded 'C:\Documents and Settings\Mike\Desktop\ndoc\Configuration\Supplemental Docs\en\System.Windows.Forms.xml' (0.031 sec.)
+    XmlDocCommentLoader: Cache 28573
+    Docs found : C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\en\System.xml
+                                                                                                    XmlDocCommentLoader: Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\en\System.xml' (0.739 sec.)
+    XmlDocCommentLoader: Cache 37227
+    XmlDocCommentLoader: Loaded 'C:\Documents and Settings\Mike\Desktop\ndoc\Configuration\Supplemental Docs\en\System.xml' (0.011 sec.)
+    XmlDocCommentLoader: Cache 37744
+    Wrote 23 classes.
+    Wrote 3 enumerations.
+    Wrote 3 delegates.
+Completed SuperDoku, Version=1.0.2971.30626, Culture=neutral, PublicKeyToken=null
+2.984 sec.
+MakeXML : 4.765 sec.
+Determining Document Structure
+Load Docs for Structure Production: 37.156 msec.
+Building File Map: 12.784 msec.
+Structure Production: 760.809 msec.
+Initializing Documenter
+xslt-preprocess.xslt
+retrieved xslt-preprocess.xslt from Style2005
+    topics_main.xslt
+    retrieved topics_main.xslt from common
+    retrieved common.xslt from common
+    retrieved tags.xslt from Style2005
+    retrieved blank.xslt from common
+    retrieved indices.xslt from common
+    retrieved XLinks.xslt from common
+    retrieved style-common.xslt from Style2005
+    retrieved see-also.xslt from common
+    retrieved syntax.xslt from Style2005
+    retrieved syntax-common.xslt from common
+    retrieved syntax-map.xslt from common
+    retrieved memberscommon.xslt from Style2005
+    retrieved allmembers.xslt from Style2005
+    retrieved event.xslt from common
+    retrieved field.xslt from common
+    retrieved individualmembers.xslt from Style2005
+    retrieved member.xslt from common
+    retrieved memberoverload.xslt from Style2005
+    retrieved namespace.xslt from Style2005
+    retrieved namespacehierarchy.xslt from common
+    retrieved property.xslt from common
+    retrieved type.xslt from Style2005
+    retrieved typehierarchy.xslt from Style2005
+    0.596
+    toc_htmlhelp1.xslt
+    retrieved toc_htmlhelp1.xslt from common
+    0.002
+    toc_htmlhelp2.xslt
+    retrieved toc_htmlhelp2.xslt from common
+    0.002
+    toc_web.xslt
+    retrieved toc_web.xslt from common
+    0.003
+Building stylesheets 0.696
+Building Table-of-Contents
+Building Topic Pages
+259.201   namespace   N_SuperDoku.html
+62.257   namespacehierarchy   Hier_N_SuperDoku.html
+344.692   type   T_SuperDoku_Board.html
+462.564   allmembers   T_SuperDoku_Board_Members.html
+58.190   individualmembers   T_SuperDoku_Board_Methods.html
+82.002   member   C_SuperDoku_Board_ctor.html
+87.542   memberoverload   O_T_SuperDoku_Board_Dispose.html
+53.903   member   M_SuperDoku_Board_Dispose_d8a57f8b.html
+1.602   member   M_SuperDoku_Board_InitFromString.html
+3.474   type   T_SuperDoku_BufferedUserControl.html
+61.703   allmembers   T_SuperDoku_BufferedUserControl_Members.html
+15.858   individualmembers   T_SuperDoku_BufferedUserControl_Properties.html
+31.315   individualmembers   T_SuperDoku_BufferedUserControl_Methods.html
+2.083   member   C_SuperDoku_BufferedUserControl_ctor.html
+95.721   property   P_SuperDoku_BufferedUserControl_OffscreenBitmap.html
+1.676   property   P_SuperDoku_BufferedUserControl_OffscreenGraphics.html
+2.015   member   M_SuperDoku_BufferedUserControl_OnPaint.html
+1.466   member   M_SuperDoku_BufferedUserControl_OnPaintBackground.html
+12.649   member   M_SuperDoku_BufferedUserControl_OnResize.html
+1.996   member   M_SuperDoku_BufferedUserControl_ResizeTo.html
+2.893   type   T_SuperDoku_DrawableObject.html
+5.104   allmembers   T_SuperDoku_DrawableObject_Members.html
+2.019   member   C_SuperDoku_DrawableObject_ctor.html
+2.687   type   T_SuperDoku_Field.html
+61.549   allmembers   T_SuperDoku_Field_Members.html
+17.898   individualmembers   T_SuperDoku_Field_Properties.html
+31.733   individualmembers   T_SuperDoku_Field_Methods.html
+1.115   member   C_SuperDoku_Field_ctor.html
+1.297   property   P_SuperDoku_Field_Board.html
+1.238   property   P_SuperDoku_Field_SelectionBar.html
+2.905   property   P_SuperDoku_Field_SelectionBarPosition.html
+1.576   memberoverload   O_T_SuperDoku_Field_Dispose.html
+2.325   member   M_SuperDoku_Field_Dispose_d8a57f8b.html
+2.781   member   M_SuperDoku_Field_Field_OnKeyDown.html
+22.601   member   M_SuperDoku_Field_OnPaintBackground.html
+1.559   type   T_SuperDoku_Game.html
+2.461   allmembers   T_SuperDoku_Game_Members.html
+2.063   individualmembers   T_SuperDoku_Game_Methods.html
+1.741   member   C_SuperDoku_Game_ctor.html
+1.188   member   M_SuperDoku_Game_StartGeneration.html
+34.347   type   T_SuperDoku_Grid.html
+4.507   allmembers   T_SuperDoku_Grid_Members.html
+1.926   individualmembers   T_SuperDoku_Grid_Properties.html
+2.377   individualmembers   T_SuperDoku_Grid_Methods.html
+1.214   individualmembers   T_SuperDoku_Grid_Events.html
+2.360   member   C_SuperDoku_Grid_ctor.html
+34.292   property   P_SuperDoku_Grid_CompletedColumns.html
+1.894   property   P_SuperDoku_Grid_CompletedRows.html
+2.647   property   P_SuperDoku_Grid_CompletedValues.html
+1.131   memberoverload   O_T_SuperDoku_Grid_Item.html
+41.595   property   P_SuperDoku_Grid_Item_fc96d728.html
+1.745   property   P_SuperDoku_Grid_Item_21feee67.html
+1.255   property   P_SuperDoku_Grid_NumCols.html
+1.243   property   P_SuperDoku_Grid_NumRows.html
+2.007   property   P_SuperDoku_Grid_Parent.html
+1.686   property   P_SuperDoku_Grid_SelectedSquare.html
+3.357   property   P_SuperDoku_Grid_Squares.html
+1.717   member   M_SuperDoku_Grid_ContainsNine.html
+1.936   member   M_SuperDoku_Grid_Invalidate.html
+1.275   member   M_SuperDoku_Grid_IsBoard.html
+2.246   member   M_SuperDoku_Grid_NumberOf.html
+1.361   member   M_SuperDoku_Grid_RePaint.html
+45.364   event   E_SuperDoku_Grid_SelectedSquareChanged.html
+1.692   event   E_SuperDoku_Grid_SquareValueChanged.html
+3.454   type   T_SuperDoku_GridUserControl.html
+62.472   allmembers   T_SuperDoku_GridUserControl_Members.html
+40.832   individualmembers   T_SuperDoku_GridUserControl_Properties.html
+31.348   individualmembers   T_SuperDoku_GridUserControl_Methods.html
+2.840   member   C_SuperDoku_GridUserControl_ctor.html
+1.632   property   P_SuperDoku_GridUserControl_Grid.html
+2.204   property   P_SuperDoku_GridUserControl_IgnoreSelectedStyle.html
+1.248   property   P_SuperDoku_GridUserControl_ParentField.html
+1.539   property   P_SuperDoku_GridUserControl_SelectedSquare.html
+1.337   memberoverload   O_T_SuperDoku_GridUserControl_ApplyStyle.html
+1.994   member   M_SuperDoku_GridUserControl_ApplyStyle_.html
+2.176   member   M_SuperDoku_GridUserControl_ApplyStyle_e57ec43f.html
+2.724   member   M_SuperDoku_GridUserControl_GetSquareAt.html
+2.056   type   T_SuperDoku_PencilMark.html
+2.817   allmembers   T_SuperDoku_PencilMark_Members.html
+1.082   individualmembers   T_SuperDoku_PencilMark_Properties.html
+1.577   property   P_SuperDoku_PencilMark_On.html
+1.233   property   P_SuperDoku_PencilMark_ParentPencilMarksList.html
+13.603   property   P_SuperDoku_PencilMark_Position.html
+1.272   property   P_SuperDoku_PencilMark_Value.html
+1.493   type   T_SuperDoku_PencilMarks.html
+2.945   allmembers   T_SuperDoku_PencilMarks_Members.html
+1.880   individualmembers   T_SuperDoku_PencilMarks_Properties.html
+2.709   individualmembers   T_SuperDoku_PencilMarks_Methods.html
+3.231   member   C_SuperDoku_PencilMarks_ctor.html
+1.515   property   P_SuperDoku_PencilMarks_CurrentPencilMarkWhileDragging.html
+1.938   memberoverload   O_T_SuperDoku_PencilMarks_Item.html
+1.490   property   P_SuperDoku_PencilMarks_Item_804c5d7d.html
+2.001   property   P_SuperDoku_PencilMarks_Item_fc96d728.html
+1.259   property   P_SuperDoku_PencilMarks_ParentSquare.html
+26.799   member   M_SuperDoku_PencilMarks_Clear.html
+1.472   type   T_SuperDoku_Position.html
+2.744   allmembers   T_SuperDoku_Position_Members.html
+1.083   individualmembers   T_SuperDoku_Position_Properties.html
+2.437   individualmembers   T_SuperDoku_Position_Methods.html
+1.457   member   C_SuperDoku_Position_ctor.html
+1.948   property   P_SuperDoku_Position_X.html
+2.024   property   P_SuperDoku_Position_Y.html
+1.770   memberoverload   O_T_SuperDoku_Position_Equals.html
+1.463   member   M_SuperDoku_Position_Equals_21feee67.html
+1.534   member   M_SuperDoku_Position_ToString.html
+2.492   type   T_SuperDoku_SelectionBar.html
+60.033   allmembers   T_SuperDoku_SelectionBar_Members.html
+17.037   individualmembers   T_SuperDoku_SelectionBar_Properties.html
+32.539   individualmembers   T_SuperDoku_SelectionBar_Methods.html
+1.176   member   C_SuperDoku_SelectionBar_ctor.html
+2.640   property   P_SuperDoku_SelectionBar_Orientation.html
+1.558   memberoverload   O_T_SuperDoku_SelectionBar_Dispose.html
+1.554   member   M_SuperDoku_SelectionBar_Dispose_d8a57f8b.html
+1.523   member   M_SuperDoku_SelectionBar_GetSquare.html
+29.356   type   T_SuperDoku_Settings.html
+1.525   type   T_SuperDoku_Settings_Current.html
+1.174   allmembers   T_SuperDoku_Settings_Current_Members.html
+0.993   individualmembers   T_SuperDoku_Settings_Current_Properties.html
+2.315   property   P_SuperDoku_Settings_Current_PencilMarkMode.html
+1.314   type   T_SuperDoku_Settings_Layout.html
+1.435   allmembers   T_SuperDoku_Settings_Layout_Members.html
+1.101   individualmembers   T_SuperDoku_Settings_Layout_Properties.html
+2.039   property   P_SuperDoku_Settings_Layout_ChooseBestSettings.html
+2.006   property   P_SuperDoku_Settings_Layout_MarginPercent.html
+1.786   property   P_SuperDoku_Settings_Layout_SelectionBarPosition.html
+1.631   type   T_SuperDoku_Settings_Navigation.html
+5.037   allmembers   T_SuperDoku_Settings_Navigation_Members.html
+1.056   individualmembers   T_SuperDoku_Settings_Navigation_Properties.html
+2.666   property   P_SuperDoku_Settings_Navigation_SmartphoneMode.html
+1.321   type   T_SuperDoku_Settings_Skin.html
+20.774   allmembers   T_SuperDoku_Settings_Skin_Members.html
+1.602   individualmembers   T_SuperDoku_Settings_Skin_Properties.html
+0.997   individualmembers   T_SuperDoku_Settings_Skin_Methods.html
+1.383   property   P_SuperDoku_Settings_Skin_BackgroundRect.html
+1.926   property   P_SuperDoku_Settings_Skin_Bitmap.html
+1.430   property   P_SuperDoku_Settings_Skin_BoardLength.html
+1.539   property   P_SuperDoku_Settings_Skin_FileName.html
+1.345   property   P_SuperDoku_Settings_Skin_GutterLength.html
+2.293   property   P_SuperDoku_Settings_Skin_IdealBoardLengths.html
+1.419   property   P_SuperDoku_Settings_Skin_OverlapLength.html
+3.413   property   P_SuperDoku_Settings_Skin_PencilMarkLongLength.html
+1.320   property   P_SuperDoku_Settings_Skin_PencilMarkShortLength.html
+2.701   property   P_SuperDoku_Settings_Skin_SquareLength.html
+2.001   member   M_SuperDoku_Settings_Skin_SetSkin.html
+1.396   type   T_SuperDoku_Settings_Style.html
+1.957   allmembers   T_SuperDoku_Settings_Style_Members.html
+4.465   individualmembers   T_SuperDoku_Settings_Style_Properties.html
+1.937   property   P_SuperDoku_Settings_Style_Completed.html
+1.557   property   P_SuperDoku_Settings_Style_CompletedBlock.html
+1.628   property   P_SuperDoku_Settings_Style_CompletedOnSelectionBar.html
+5.645   property   P_SuperDoku_Settings_Style_CompletedRowOrColumn.html
+1.506   property   P_SuperDoku_Settings_Style_EverythingElse.html
+1.475   property   P_SuperDoku_Settings_Style_EverythingElseOnSelectionBar.html
+1.432   property   P_SuperDoku_Settings_Style_EverythingElsePencilMarks.html
+3.606   property   P_SuperDoku_Settings_Style_Given.html
+1.961   property   P_SuperDoku_Settings_Style_Selected.html
+1.479   property   P_SuperDoku_Settings_Style_SelectedPencilMark.html
+1.492   property   P_SuperDoku_Settings_Style_ToggleSelectedStyleOnRepeatedTaps.html
+5.000   type   T_SuperDoku_Settings_Style_StyleSetting.html
+2.429   allmembers   T_SuperDoku_Settings_Style_StyleSetting_Members.html
+1.369   individualmembers   T_SuperDoku_Settings_Style_StyleSetting_Properties.html
+2.461   member   C_SuperDoku_Settings_Style_StyleSetting_ctor.html
+5.082   property   P_SuperDoku_Settings_Style_StyleSetting_Active.html
+2.289   property   P_SuperDoku_Settings_Style_StyleSetting_Style.html
+1.652   type   T_SuperDoku_Square.html
+6.501   allmembers   T_SuperDoku_Square_Members.html
+5.440   individualmembers   T_SuperDoku_Square_Properties.html
+2.409   individualmembers   T_SuperDoku_Square_Methods.html
+1.716   individualmembers   T_SuperDoku_Square_Events.html
+1.776   property   P_SuperDoku_Square_ParentGrid.html
+5.389   property   P_SuperDoku_Square_PencilMarks.html
+1.494   property   P_SuperDoku_Square_Permanent.html
+1.248   property   P_SuperDoku_Square_Position.html
+2.218   property   P_SuperDoku_Square_QuestionMark.html
+2.299   property   P_SuperDoku_Square_Value.html
+2.211   member   M_SuperDoku_Square_IsBlank.html
+1.476   member   M_SuperDoku_Square_SetPosition.html
+1.912   event   E_SuperDoku_Square_ValueChanged.html
+2.204   type   T_SuperDoku_SquareChangedEventArgs.html
+2.908   allmembers   T_SuperDoku_SquareChangedEventArgs_Members.html
+2.213   individualmembers   T_SuperDoku_SquareChangedEventArgs_Properties.html
+1.487   member   C_SuperDoku_SquareChangedEventArgs_ctor.html
+1.669   property   P_SuperDoku_SquareChangedEventArgs_NewSquare.html
+1.216   property   P_SuperDoku_SquareChangedEventArgs_OldSquare.html
+1.487   type   T_SuperDoku_SquareEventArgs.html
+2.518   allmembers   T_SuperDoku_SquareEventArgs_Members.html
+1.739   individualmembers   T_SuperDoku_SquareEventArgs_Properties.html
+1.216   member   C_SuperDoku_SquareEventArgs_ctor.html
+1.286   property   P_SuperDoku_SquareEventArgs_Square.html
+14.989   type   T_SuperDoku_SquareValueChangedEventArgs.html
+3.358   allmembers   T_SuperDoku_SquareValueChangedEventArgs_Members.html
+1.125   individualmembers   T_SuperDoku_SquareValueChangedEventArgs_Properties.html
+2.257   member   C_SuperDoku_SquareValueChangedEventArgs_ctor.html
+1.482   property   P_SuperDoku_SquareValueChangedEventArgs_NewValue.html
+2.890   property   P_SuperDoku_SquareValueChangedEventArgs_OldValue.html
+1.424   property   P_SuperDoku_SquareValueChangedEventArgs_Square.html
+1.802   type   T_SuperDoku_VariableStyleDrawableObject.html
+2.308   allmembers   T_SuperDoku_VariableStyleDrawableObject_Members.html
+2.033   member   C_SuperDoku_VariableStyleDrawableObject_ctor.html
+24.036   type   T_SuperDoku_SelectionBar_Orientations.html
+3.023   type   T_SuperDoku_SelectionBarPositions.html
+2.080   type   T_SuperDoku_Styles.html
+11.062   type   T_SuperDoku_SelectedSquareChangedHandler.html
+2.834   type   T_SuperDoku_SquareValueChangedHandler.html
+1.855   type   T_SuperDoku_ValueChangedHandler.html
+It took 4 seconds to make the html
+Completing Help Project Resources
+Writing documentation to output path
+Build Completed.
+The build took a total of 10 seconds

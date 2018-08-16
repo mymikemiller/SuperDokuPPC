@@ -1,0 +1,382 @@
+<html dir="LTR" xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:tool="http://www.microsoft.com/tooltip" xmlns:ndoc="urn:ndoc-preprocess">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <title>SuperDoku</title>
+    <link rel="stylesheet" type="text/css" href="ndoc.css"> </link>
+    <link rel="stylesheet" type="text/css" href="user.css"> </link>
+    <script type="text/javascript" src="ndoc.js"> </script>
+  </head>
+  <body style="display: none;">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <input type="hidden" id="hiddenScrollOffset" />
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="drpdown.gif" />
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="drpdown_orange.gif" />
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="collapse.gif" />
+    <img id="expandImage" style="display:none; height:0; width:0;" src="exp.gif" />
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="collall.gif" />
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="expall.gif" />
+    <img id="copyImage" style="display:none; height:0; width:0;" src="copycode.gif" />
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="copycodeHighlight.gif" />
+    <div id="header">
+      <table width="100%" id="topTable">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">An NDoc documented library</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">SuperDoku Namespace</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td>
+            <a id="seeAlsoSectionLink" href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a>
+            <a id="exampleSectionLink" href="#codeExampleToggle" onclick="OpenSection(codeExampleToggle)">Example</a>
+            <a href="Hier_N_SuperDoku.html">Hierarchy</a>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" id="bottomTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage)" tabindex="0">
+              <img ID="toggleAllImage" class="toggleAll" src="collall.gif" />
+              <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">
+							Collapse All
+						</label>
+              <label id="expandAllLabel" for="toggleAllImage" style="display: none;">
+							Expand All
+						</label>
+            </span>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" />
+        <h1 class="heading">
+          <span style="cursor:default;" onclick="ExpandCollapse(classToggle)" onkeypress="ExpandCollapse_CheckKey(classToggle)" tabindex="0">
+            <img id="classToggle" class="toggle" name="toggleSwitch" src="collapse.gif" />Classes</span>
+        </h1>
+        <div id="classSection" class="section" name="collapseableSection">
+          <table width="100%" class="memberListTable">
+            <col width="2%" />
+            <col width="38%" />
+            <col width="60%" />
+            <tr valign="top">
+              <th> </th>
+              <th>Class</th>
+              <th>Description</th>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Board.html">Board</a>
+              </td>
+              <td>The Board containing the 81 Square objects (via the grid object).</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_BufferedUserControl.html">BufferedUserControl</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_DrawableObject.html">DrawableObject</a>
+              </td>
+              <td>Represents an object that can be drawn to a BufferedUserControl by extracting an image from the skin file. (i.e. Squares, PencilMarks, SkinBanner, Background) This class is <span codeLanguage="VisualBasicAndAnother">abstract (<b>MustInherit</b> in Visual Basic)</span><span codeLanguage="AnyButVisualBasic">abstract</span><span codeLanguage="OnlyVisualBasic"><b>MustInherit</b></span> and so cannot be instantiated.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Field.html">Field</a>
+              </td>
+              <td>The playing field that contains the Board and the SelectionBar.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Game.html">Game</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Grid.html">Grid</a>
+              </td>
+              <td>A collection of Square objects.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_GridUserControl.html">GridUserControl</a>
+              </td>
+              <td>Represents a BufferedUserControl that is drawn according to a Grid that it contains (i.e. the Board and SelectionBar)</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_PencilMark.html">PencilMark</a>
+              </td>
+              <td>Represents a PencilMark on a Square</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_PencilMarks.html">PencilMarks</a>
+              </td>
+              <td>A collection of the 9 PencilMark objects on the Squares on the Board. Can be accessed via [] with the value of the PencilMark, or with the 0-based x, y location within the Square.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Position.html">Position</a>
+              </td>
+              <td>Represents an x,y position on the board.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_SelectionBar.html">SelectionBar</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Settings.html">Settings</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="NestedPublic class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Settings_Current.html">Settings.Current</a>
+              </td>
+              <td>Settings that change throughout the game (for example, when the user switches PencilMark modes) This is a <span codeLanguage="VisualBasicAndAnother">static class (<b>Module</b> in Visual Basic)</span><span codeLanguage="AnyButVisualBasic">static class</span><span codeLanguage="OnlyVisualBasic"><b>Module</b></span> and so cannot be inherited or instantiated.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="NestedPublic class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Settings_Layout.html">Settings.Layout</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="NestedPublic class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Settings_Navigation.html">Settings.Navigation</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="NestedPublic class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Settings_Skin.html">Settings.Skin</a>
+              </td>
+              <td>Settings pertaining to the graphical Skin used in the game. Change the Skin via SetSkin(). This is a <span codeLanguage="VisualBasicAndAnother">static class (<b>Module</b> in Visual Basic)</span><span codeLanguage="AnyButVisualBasic">static class</span><span codeLanguage="OnlyVisualBasic"><b>Module</b></span> and so cannot be inherited or instantiated.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="NestedPublic class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Settings_Style.html">Settings.Style</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="NestedPublic class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Settings_Style_StyleSetting.html">Settings.Style.StyleSetting</a>
+              </td>
+              <td>Represents the Style of visual elements (Squares or PencilMarks). If not Active, the Style will be ignored.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Square.html">Square</a>
+              </td>
+              <td>Represents one of the 81 Squares on the Board or the 9 Squares on the SelectionBar.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_SquareChangedEventArgs.html">SquareChangedEventArgs</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_SquareEventArgs.html">SquareEventArgs</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_SquareValueChangedEventArgs.html">SquareValueChangedEventArgs</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_VariableStyleDrawableObject.html">VariableStyleDrawableObject</a>
+              </td>
+              <td>A DrawableObject designed to describe elements that can be either Regular, Bold or Dim (i.e. Squares and PencilMarks). This class is <span codeLanguage="VisualBasicAndAnother">abstract (<b>MustInherit</b> in Visual Basic)</span><span codeLanguage="AnyButVisualBasic">abstract</span><span codeLanguage="OnlyVisualBasic"><b>MustInherit</b></span> and so cannot be instantiated.</td>
+            </tr>
+          </table>
+        </div>
+        <h1 class="heading">
+          <span style="cursor:default;" onclick="ExpandCollapse(delegateToggle)" onkeypress="ExpandCollapse_CheckKey(delegateToggle)" tabindex="0">
+            <img id="delegateToggle" class="toggle" name="toggleSwitch" src="collapse.gif" />Delegates</span>
+        </h1>
+        <div id="delegateSection" class="section" name="collapseableSection">
+          <table width="100%" class="memberListTable">
+            <col width="2%" />
+            <col width="38%" />
+            <col width="60%" />
+            <tr valign="top">
+              <th> </th>
+              <th>Delegate</th>
+              <th>Description</th>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubdelegate.gif" alt="Public delegate" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_SelectedSquareChangedHandler.html">SelectedSquareChangedHandler</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubdelegate.gif" alt="Public delegate" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_SquareValueChangedHandler.html">SquareValueChangedHandler</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubdelegate.gif" alt="Public delegate" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_ValueChangedHandler.html">ValueChangedHandler</a>
+              </td>
+              <td> </td>
+            </tr>
+          </table>
+        </div>
+        <h1 class="heading">
+          <span style="cursor:default;" onclick="ExpandCollapse(enumerationToggle)" onkeypress="ExpandCollapse_CheckKey(enumerationToggle)" tabindex="0">
+            <img id="enumerationToggle" class="toggle" name="toggleSwitch" src="collapse.gif" />Enumerations</span>
+        </h1>
+        <div id="enumerationSection" class="section" name="collapseableSection">
+          <table width="100%" class="memberListTable">
+            <col width="2%" />
+            <col width="38%" />
+            <col width="60%" />
+            <tr valign="top">
+              <th> </th>
+              <th>Enumeration</th>
+              <th>Description</th>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubenumeration.gif" alt="NestedPublic enumeration" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_SelectionBar_Orientations.html">SelectionBar.Orientations</a>
+              </td>
+              <td> </td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubenumeration.gif" alt="Public enumeration" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_SelectionBarPositions.html">SelectionBarPositions</a>
+              </td>
+              <td>Represents the position of the SelectionBar in relation to the Board.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubenumeration.gif" alt="Public enumeration" />
+              </td>
+              <td>
+                <a href="T_SuperDoku_Styles.html">Styles</a>
+              </td>
+              <td> </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <DIV CLASS="footer">
+        <p>
+          <center>
+            <font color="red">
+              <i>
+                Syntax based on .NET Framework version 2.0.<br />
+                Documentation version 1.0.0.0.
+              </i>
+            </font>
+          </center>
+        </p>
+      </DIV><!--[if gte IE 5]><tool:tip element="seeAlsoToolTip" avoidmouse="false" /><tool:tip element="languageFilterToolTip" avoidmouse="false" /><![endif]--></div>
+  </body>
+</html>

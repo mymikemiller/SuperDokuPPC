@@ -1,0 +1,5 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DeployDeviceID>C21E2F27-73BF-4111-ABC1-92EE8C8466D1</DeployDeviceID>
+  </PropertyGroup>
+</Project>
